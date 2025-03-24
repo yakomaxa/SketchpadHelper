@@ -1,9 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Sketchpad Drawing Helper",
   "version": "1.0",
   "description": "Enables drawing on Sketchpad with key press instead of mouse click.",
-  "permissions": ["https://sketch.io/*"],
   "content_scripts": [
     {
       "matches": ["https://sketch.io/sketchpad/*"],
